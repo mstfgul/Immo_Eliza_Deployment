@@ -38,9 +38,9 @@ The app will be live at http://localhost:8501 in your web browser.
 
 ### Dependencies
 
-streamlit: For creating the web interface and handling app logic.
-pandas: For managing data structures.
-pickle: To load pre-trained models and some features data.
+*streamlit*: For creating the web interface and handling app logic.
+*pandas*: For managing data structures.
+*pickle*: To load pre-trained models and some features data.
 
 ```bash
 app/
