@@ -42,7 +42,7 @@ streamlit: For creating the web interface and handling app logic.
 pandas: For managing data structures.
 pickle: To load pre-trained models and some features data.
 
-
+```bash
 app/
 │
 ├── app.py               # Main application script
@@ -50,6 +50,8 @@ app/
 ├── commune_encoder.pkl  # Serialized label encoder for communes
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
+```
+
 
 ### Authors
 
