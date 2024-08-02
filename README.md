@@ -14,6 +14,7 @@ This Streamlit application provides predictions on real estate prices based on u
 ### Installation
 
 ```bash
+
 # Clone the repository
 git clone git@github.com:mstfgul/Immo_Eliza_Deployment.git
 cd myStreamlit
@@ -29,10 +30,11 @@ pip install -r requirements.txt
 
 With the dependencies installed, you can start the app using Streamlit:
 
-```bash
 streamlit run app.py
 
 The app will be live at http://localhost:8501 in your web browser.
+
+```
 
 ### Dependencies
 
