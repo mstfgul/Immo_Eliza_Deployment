@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 
-model = pickle.load(open('/Users/mustafagul/Desktop/MY_PROJECTS/BECODE_PROJECTS/myStreamlit/model.pkl', 'rb'))
+model = pickle.load(open('myStreamlit/model.pkl', 'rb'))
 
 
 st.markdown("""<style>.big-font {font-size:40px !important;color: #FF6347;}</style>""", unsafe_allow_html=True)
@@ -12,7 +12,7 @@ st.markdown('<p class="big-font">Real Estate Price Prediction App (BE)</p>', uns
 st.markdown('Please enter the details below to predict the price:')
 
 
-with open('/Users/mustafagul/Desktop/MY_PROJECTS/BECODE_PROJECTS/myStreamlit/commune_encoder.pkl', 'rb') as file:
+with open('myStreamlit/commune_encoder.pkl', 'rb') as file:
     encoder = pickle.load(file)
 
 
