@@ -52,3 +52,5 @@ app/
 ### Authors
 
 Mustafa Gul - Initial Work - https://github.com/mstfgul
+
+Direct LINK : https://immoelizadeployment-crbz4z5xesw5otxbdmgcq2.streamlit.app
